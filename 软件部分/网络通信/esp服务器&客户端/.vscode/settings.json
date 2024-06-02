@@ -1,0 +1,21 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.adapterTargetName": "esp32",
+  "files.associations": {
+    "err.h": "c",
+    "protocol_examples_common.h": "c",
+    "cstdlib": "c",
+    "uart.h": "c",
+    "esp_system.h": "c",
+    "netdb.h": "c",
+    "sockets.h": "c",
+    "bitset": "c",
+    "string_view": "c",
+    "regex": "c"
+  },
+  "idf.portWin": "COM9",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.flashType": "UART"
+}
