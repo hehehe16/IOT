@@ -32,17 +32,27 @@ class cmd_thread:
 
 
 def execute(cmd : str):
+    global server
     if  cmd in command_class:
         if cmd == 'start':
+            
             port = 0
+            if server is not None:
+                print(f"错误:服务器已在运行!")
+                return
             port =input("输入监听端口:")
             cmd_threads[cmd] = cmd_thread(cmd)
             cmd_threads[cmd].thread = threading.Thread(target= server_start,args=(port,))
             cmd_threads[cmd].thread.start()
         elif cmd == 'stop':
-            ...
+            if server is None:
+                print(f"错误:服务器已停止!")
+                return
+            cmd_threads['start'].thread.close()
+
+            server.close()
         elif cmd == 'exit':
-            ...
+            exit("已退出")
         elif cmd == 'list':
             for i in device:
                 print(f"已连接设备:{device[i].name}")
@@ -95,9 +105,8 @@ def client_thread(self : connected_device):
 def server_start(port :str):
     global server
     ip = get_host_ip()
-    if server is None:
-        print(f"服务器已在运行\nip:{ip}")
-    
+
+
     ip_port = (ip,int(port))
     server = socket.socket()            # 创建套接字
     server.bind(ip_port)
@@ -112,6 +121,7 @@ def server_start(port :str):
                 new_device = connected_device(head,client)
                 new_device.thread = threading.Thread(target=client_thread,args=(new_device,))
                 new_device.thread.start()
+                
                 device[client_class.index(head)] = new_device
             else:
                 client.close()
