@@ -1,6 +1,6 @@
 import socket
 import threading
-
+import os
 
 command = None
 
@@ -14,8 +14,9 @@ command_class = ['start','stop','exit','list','reset']  #服务器命令列表
 
 
 client_cmd_class = [
-    'f'
+    'f' 'q'
 ]
+
 
 server = None
 
@@ -49,10 +50,11 @@ def execute(cmd : str):
                 print(f"错误:服务器已停止!")
                 return
             cmd_threads['start'].thread.close()
-
+            device.clear()
             server.close()
         elif cmd == 'exit':
-            exit("已退出")
+            print("退出")
+            os._exit(0)
         elif cmd == 'list':
             for i in device:
                 print(f"已连接设备:{device[i].name}")
@@ -77,7 +79,8 @@ def get_host_ip():
 
 
 def client_thread(self : connected_device):
-    while True:   
+    state = True
+    while state:   
         receive = self.socket.recv(1024).decode()  
         client_cmd = receive[:1]
         client_cmd_var = int(receive[1:2])
@@ -90,13 +93,14 @@ def client_thread(self : connected_device):
                     device[client_cmd_var].socket.send(client_data.encode())
                 else:
                     print(f"来自{self.name}  到{client_class[client_cmd_var]}的转发请求失败!  {client_data}")
+            elif client_cmd == 'q':
+                print(f"{self.name}断开连接")
+                self.socket.close()
+                del device[client_class.index(self.name)]
+                state = False
 
         else:
             print(f"来自{self.name},参数错误")
-
-
-        if client_data == "exit":       # 判断是否退出连接
-            exit("通信结束")
         
     
 
@@ -116,6 +120,7 @@ def server_start(port :str):
         try:
             client, addr = server.accept()
             head = client.recv(1024).decode()
+            print(f"{head},请求连接")
             if head in client_class:
                 print(f"{head}成功连接到服务器")
                 new_device = connected_device(head,client)
@@ -140,3 +145,4 @@ if __name__ == '__main__':
     while True:
         command = input()
         execute(command)
+    
