@@ -1,31 +1,34 @@
-desktop/ctiic.o: ..\USER\Touch\ctiic.c ..\USER\Touch\ctiic.h \
-  ..\Core\Inc\main.h ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h \
-  ..\Core\Inc\stm32f4xx_hal_conf.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h \
-  ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h \
-  ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h \
-  ..\Drivers\CMSIS\Include\core_cm4.h \
-  C:\User\ Programs\Keil_v5\ARM\ARMCLANG\include\stdint.h \
-  E:\IOT\软件部分\显示部分\lcd\Drivers\CMSIS\Include\cmsis_version.h \
-  E:\IOT\软件部分\显示部分\lcd\Drivers\CMSIS\Include\cmsis_compiler.h \
-  E:\IOT\软件部分\显示部分\lcd\Drivers\CMSIS\Include\cmsis_armclang.h \
-  E:\IOT\软件部分\显示部分\lcd\Drivers\CMSIS\Include\mpu_armv7.h \
-  ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
-  C:\User\ Programs\Keil_v5\ARM\ARMCLANG\include\stddef.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_sram.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_fsmc.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h \
-  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h \
-  ..\USER\delay\delay.h
+desktop\ctiic.o: ..\USER\Touch\ctiic.c
+desktop\ctiic.o: ..\USER\Touch\ctiic.h
+desktop\ctiic.o: ../Core/Inc/main.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+desktop\ctiic.o: ../Core/Inc/stm32f4xx_hal_conf.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+desktop\ctiic.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+desktop\ctiic.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+desktop\ctiic.o: ../Drivers/CMSIS/Include/core_cm4.h
+desktop\ctiic.o: C:\User Programs\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+desktop\ctiic.o: ../Drivers/CMSIS/Include/cmsis_version.h
+desktop\ctiic.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+desktop\ctiic.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+desktop\ctiic.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+desktop\ctiic.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+desktop\ctiic.o: C:\User Programs\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+desktop\ctiic.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+desktop\ctiic.o: ../USER/delay/delay.h

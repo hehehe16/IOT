@@ -14,7 +14,7 @@ command_class = ['start','stop','exit','list','reset']  #服务器命令列表
 
 
 client_cmd_class = [
-    'f' 'q'
+    'f' ,'q'
 ]
 
 
@@ -83,12 +83,11 @@ def client_thread(self : connected_device):
     while state:   
         receive = self.socket.recv(1024).decode()  
         client_cmd = receive[:1]
-        client_cmd_var = int(receive[1:2])
-        
 
-        client_data = receive[2:]
         if client_cmd in client_cmd_class:
             if client_cmd == 'f':
+                client_cmd_var = int(receive[1:2])
+                client_data = receive[2:]                
                 if client_cmd_var in device:
                     device[client_cmd_var].socket.send(client_data.encode())
                 else:

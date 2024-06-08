@@ -22,7 +22,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "delay.h"
+#include "lcd.h"
+#include "touch.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -65,7 +67,8 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
+	uint8_t x = 0;
+	uint8_t lcd_id[12];
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -87,6 +90,9 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
+	delay_init(168);
+	lcd_init();
+	g_point_color = RED;
 	
   /* USER CODE END 2 */
 
@@ -94,6 +100,71 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+        switch (x)
+        {
+        case 0:
+            lcd_clear(WHITE);
+            break;
+
+        case 1:
+            lcd_clear(BLACK);
+            break;
+
+        case 2:
+            lcd_clear(BLUE);
+            break;
+
+        case 3:
+            lcd_clear(RED);
+            break;
+
+        case 4:
+            lcd_clear(MAGENTA);
+            break;
+
+        case 5:
+            lcd_clear(GREEN);
+            break;
+
+        case 6:
+            lcd_clear(CYAN);
+            break;
+
+        case 7:
+            lcd_clear(YELLOW);
+            break;
+
+        case 8:
+            lcd_clear(BRRED);
+            break;
+
+        case 9:
+            lcd_clear(GRAY);
+            break;
+
+        case 10:
+            lcd_clear(LGRAY);
+            break;
+
+        case 11:
+            lcd_clear(BROWN);
+            break;
+        }
+
+        lcd_show_string(10, 40, 240, 32, 32, "STM32", RED);
+        lcd_show_string(10, 80, 240, 24, 24, "TFTLCD TEST", RED);
+        lcd_show_string(10, 110, 240, 16, 16, "ATOM@ALIENTEK", RED);
+        lcd_show_string(10, 130, 240, 16, 16, (char *)lcd_id, RED); /* œ‘ æLCD ID */
+        x++;
+
+        if (x == 12)
+            x = 0;
+
+
+        delay_ms(1000);
+    
+
+
 		
     /* USER CODE END WHILE */
 
@@ -119,12 +190,13 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
-  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
+  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
-  RCC_OscInitStruct.PLL.PLLM = 25;
-  RCC_OscInitStruct.PLL.PLLN = 336;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+  RCC_OscInitStruct.PLL.PLLM = 8;
+  RCC_OscInitStruct.PLL.PLLN = 168;
   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
   RCC_OscInitStruct.PLL.PLLQ = 4;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)

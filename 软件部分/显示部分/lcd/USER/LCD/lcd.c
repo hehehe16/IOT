@@ -675,16 +675,16 @@ void lcd_init(void)
     g_sram_handle.Init.WriteBurst = FSMC_WRITE_BURST_DISABLE;              /* 禁止突发写 */
     
     /* FSMC读时序控制寄存器 */
-    fsmc_read_handle.AddressSetupTime = 0;      /* 地址建立时间(ADDSET)为1个HCLK 1/72M = 13.9ns (实际 > 200ns) */
+    fsmc_read_handle.AddressSetupTime = 1;      /* 地址建立时间(ADDSET)为1个HCLK 1/72M = 13.9ns (实际 > 200ns) */
     fsmc_read_handle.AddressHoldTime = 0;       /* 地址保持时间(ADDHLD) 模式A是没有用到 */
     /* 因为液晶驱动IC的读数据的时候，速度不能太快,尤其是个别奇葩芯片 */
-    fsmc_read_handle.DataSetupTime = 15;        /* 数据保存时间(DATAST)为16个HCLK = 13.9 * 16 = 222.4ns */
+    fsmc_read_handle.DataSetupTime = 35;        /* 数据保存时间(DATAST)为16个HCLK = 13.9 * 16 = 222.4ns */
     fsmc_read_handle.AccessMode = FSMC_ACCESS_MODE_A;     /* 模式A */
     
     /* FSMC写时序控制寄存器 */
-    fsmc_write_handle.AddressSetupTime = 0;     /* 地址建立时间(ADDSET)为1个HCLK = 13.9ns */
+    fsmc_write_handle.AddressSetupTime = 1;     /* 地址建立时间(ADDSET)为1个HCLK = 13.9ns */
     fsmc_write_handle.AddressHoldTime = 0;      /* 地址保持时间(ADDHLD) 模式A是没有用到 */
-    fsmc_write_handle.DataSetupTime = 1;        /* 数据保存时间(DATAST)为2个HCLK = 13.9 * 2 = 27.8ns (实际 > 200ns) */
+    fsmc_write_handle.DataSetupTime = 2;        /* 数据保存时间(DATAST)为2个HCLK = 13.9 * 2 = 27.8ns (实际 > 200ns) */
     /* 某些液晶驱动IC的写信号脉宽，最少也得50ns。 */
     fsmc_write_handle.AccessMode = FSMC_ACCESS_MODE_A;    /* 模式A */
     
@@ -698,7 +698,7 @@ void lcd_init(void)
     lcddev.id = lcd_rd_data();  /* 读取0X93 */
     lcddev.id <<= 8;
     lcddev.id |= lcd_rd_data(); /* 读取0X41 */
-
+		
     if (lcddev.id != 0X9341)    /* 不是 9341 , 尝试看看是不是 ST7789 */
     {
         lcd_wr_regno(0X04);
