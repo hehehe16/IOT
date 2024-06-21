@@ -180,4 +180,4 @@ shentou/setup_scr_screen.o: ..\generated\setup_scr_screen.c \
   ..\lvgl\src\extra\widgets\span\..\..\..\lvgl.h \
   C:\User\ Programs\Keil_v5\ARM\ARMCLANG\include\stdio.h \
   ..\generated\gui_guider.h ..\generated\events_init.h \
-  ..\generated\widgets_init.h
+  ..\generated\widgets_init.h ..\custom\custom.h

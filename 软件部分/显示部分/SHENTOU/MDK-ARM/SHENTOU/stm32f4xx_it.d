@@ -26,6 +26,7 @@ shentou/stm32f4xx_it.o: ..\Core\Src\stm32f4xx_it.c ..\Core\Inc\main.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_sram.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_fsmc.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_iwdg.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h \
   ..\Core\Inc\stm32f4xx_it.h ..\lvgl\lvgl.h ..\lvgl\src\misc\lv_log.h \

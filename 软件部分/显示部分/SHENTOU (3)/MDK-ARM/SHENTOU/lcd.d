@@ -1,0 +1,35 @@
+shentou\lcd.o: ..\Drivers\LCD\LCD.c
+shentou\lcd.o: ..\Drivers\LCD\LCD.h
+shentou\lcd.o: ../Core/Inc/main.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+shentou\lcd.o: ../Core/Inc/stm32f4xx_hal_conf.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+shentou\lcd.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+shentou\lcd.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+shentou\lcd.o: ../Drivers/CMSIS/Include/core_cm4.h
+shentou\lcd.o: C:\User Programs\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+shentou\lcd.o: ../Drivers/CMSIS/Include/cmsis_version.h
+shentou\lcd.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+shentou\lcd.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+shentou\lcd.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+shentou\lcd.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+shentou\lcd.o: C:\User Programs\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+shentou\lcd.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+shentou\lcd.o: ..\Drivers\LCD\lcdfont.h
+shentou\lcd.o: ../Core/Inc/dma.h

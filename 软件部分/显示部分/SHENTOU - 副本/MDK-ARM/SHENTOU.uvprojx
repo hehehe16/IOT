@@ -1437,8 +1437,13 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>asas</GroupName>
+          <GroupName>New Group</GroupName>
           <Files>
+            <File>
+              <FileName>custom.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\custom\custom.c</FilePath>
+            </File>
             <File>
               <FileName>events_init.c</FileName>
               <FileType>1</FileType>
@@ -1450,9 +1455,9 @@
               <FilePath>..\generated\gui_guider.c</FilePath>
             </File>
             <File>
-              <FileName>setup_scr_WidgetsDemo.c</FileName>
+              <FileName>setup_scr_screen.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\generated\setup_scr_WidgetsDemo.c</FilePath>
+              <FilePath>..\generated\setup_scr_screen.c</FilePath>
             </File>
             <File>
               <FileName>widgets_init.c</FileName>
@@ -1460,24 +1465,9 @@
               <FilePath>..\generated\widgets_init.c</FilePath>
             </File>
             <File>
-              <FileName>_avatar_alpha_96x96.c</FileName>
+              <FileName>lv_font_montserratMedium_12.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\generated\images\_avatar_alpha_96x96.c</FilePath>
-            </File>
-            <File>
-              <FileName>_clothes_alpha_39x53.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\generated\images\_clothes_alpha_39x53.c</FilePath>
-            </File>
-            <File>
-              <FileName>lv_font_montserratMedium_10.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\generated\guider_fonts\lv_font_montserratMedium_10.c</FilePath>
-            </File>
-            <File>
-              <FileName>lv_font_montserratMedium_13.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\generated\guider_fonts\lv_font_montserratMedium_13.c</FilePath>
+              <FilePath>..\generated\guider_fonts\lv_font_montserratMedium_12.c</FilePath>
             </File>
             <File>
               <FileName>lv_font_montserratMedium_16.c</FileName>
@@ -1488,11 +1478,6 @@
               <FileName>lv_font_SourceHanSerifSC_Regular_18.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\generated\guider_fonts\lv_font_SourceHanSerifSC_Regular_18.c</FilePath>
-            </File>
-            <File>
-              <FileName>custom.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\custom\custom.c</FilePath>
             </File>
           </Files>
         </Group>

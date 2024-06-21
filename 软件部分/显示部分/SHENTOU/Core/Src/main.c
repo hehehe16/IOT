@@ -18,6 +18,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "dma.h"
+#include "iwdg.h"
 #include "gpio.h"
 #include "fsmc.h"
 
@@ -148,8 +150,11 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_FSMC_Init();
+  MX_IWDG_Init();
   /* USER CODE BEGIN 2 */
+	HAL_IWDG_Refresh(&hiwdg);
 	delay_init(168);
 	lcd_init();
 	tp_dev.init(); 
@@ -157,7 +162,7 @@ int main(void)
 //    {
 //        lcd_show_string(30, 110, 200, 16, 16, "Press KEY0 to Adjust", RED); /* µÁ◊Ë∆¡≤≈œ‘ æ */
 //    }
-	delay_ms(500);
+	delay_ms(10);
 lv_init();
 		lv_port_disp_init(); 
 		lv_port_indev_init(); 
@@ -172,7 +177,7 @@ lv_demo_widgets();
 
 		
 			lv_task_handler();
-	
+	HAL_IWDG_Refresh(&hiwdg);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -197,8 +202,9 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_LSI|RCC_OSCILLATORTYPE_HSE;
   RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+  RCC_OscInitStruct.LSIState = RCC_LSI_ON;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLM = 4;

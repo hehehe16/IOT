@@ -178,5 +178,4 @@ shentou/events_init.o: ..\generated\events_init.c \
   ..\lvgl\src\extra\widgets\imgbtn\..\..\..\lvgl.h \
   ..\lvgl\src\extra\widgets\span\lv_span.h \
   ..\lvgl\src\extra\widgets\span\..\..\..\lvgl.h \
-  C:\User\ Programs\Keil_v5\ARM\ARMCLANG\include\stdio.h \
-  ..\custom\custom.h
+  C:\User\ Programs\Keil_v5\ARM\ARMCLANG\include\stdio.h

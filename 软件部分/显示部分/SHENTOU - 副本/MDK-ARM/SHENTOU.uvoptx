@@ -2721,7 +2721,7 @@
   </Group>
 
   <Group>
-    <GroupName>asas</GroupName>
+    <GroupName>New Group</GroupName>
     <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
@@ -2733,6 +2733,18 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
+      <PathWithFileName>..\custom\custom.c</PathWithFileName>
+      <FilenameWithoutPath>custom.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>11</GroupNumber>
+      <FileNumber>203</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
       <PathWithFileName>..\generated\events_init.c</PathWithFileName>
       <FilenameWithoutPath>events_init.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
@@ -2740,7 +2752,7 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>203</FileNumber>
+      <FileNumber>204</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2752,19 +2764,19 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>204</FileNumber>
+      <FileNumber>205</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\generated\setup_scr_WidgetsDemo.c</PathWithFileName>
-      <FilenameWithoutPath>setup_scr_WidgetsDemo.c</FilenameWithoutPath>
+      <PathWithFileName>..\generated\setup_scr_screen.c</PathWithFileName>
+      <FilenameWithoutPath>setup_scr_screen.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>205</FileNumber>
+      <FileNumber>206</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2776,55 +2788,19 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>206</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>..\generated\images\_avatar_alpha_96x96.c</PathWithFileName>
-      <FilenameWithoutPath>_avatar_alpha_96x96.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>11</GroupNumber>
       <FileNumber>207</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\generated\images\_clothes_alpha_39x53.c</PathWithFileName>
-      <FilenameWithoutPath>_clothes_alpha_39x53.c</FilenameWithoutPath>
+      <PathWithFileName>..\generated\guider_fonts\lv_font_montserratMedium_12.c</PathWithFileName>
+      <FilenameWithoutPath>lv_font_montserratMedium_12.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
       <FileNumber>208</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>..\generated\guider_fonts\lv_font_montserratMedium_10.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserratMedium_10.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>11</GroupNumber>
-      <FileNumber>209</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>..\generated\guider_fonts\lv_font_montserratMedium_13.c</PathWithFileName>
-      <FilenameWithoutPath>lv_font_montserratMedium_13.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>11</GroupNumber>
-      <FileNumber>210</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -2836,25 +2812,13 @@
     </File>
     <File>
       <GroupNumber>11</GroupNumber>
-      <FileNumber>211</FileNumber>
+      <FileNumber>209</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\generated\guider_fonts\lv_font_SourceHanSerifSC_Regular_18.c</PathWithFileName>
       <FilenameWithoutPath>lv_font_SourceHanSerifSC_Regular_18.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>11</GroupNumber>
-      <FileNumber>212</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>..\custom\custom.c</PathWithFileName>
-      <FilenameWithoutPath>custom.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

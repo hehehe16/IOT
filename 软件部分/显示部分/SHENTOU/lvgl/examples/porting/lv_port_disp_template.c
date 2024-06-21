@@ -12,6 +12,7 @@
 #include "lv_port_disp_template.h"
 #include <stdbool.h>
 #include "lcd.h"
+#include "dma.h"
 /*********************
  *      DEFINES
  *********************/
@@ -38,11 +39,15 @@ void lcd_draw_fast_rgb_color(int16_t sx, int16_t sy,int16_t ex, int16_t ey, uint
     lcd_set_window(sx, sy, w, h);
     uint32_t draw_size = w * h;
     lcd_write_ram_prepare();
-
-    for(uint32_t i = 0; i < draw_size; i++)
-    {
-        lcd_wr_data(color[i]);
-    }
+		HAL_DMA_Start_IT(&hdma_memtomem_dma2_stream0,(uint32_t)color,(uint32_t)(&(LCD->LCD_RAM)),draw_size);
+		 while (__HAL_DMA_GET_FLAG(&hdma_memtomem_dma2_stream0, DMA_FLAG_TCIF0_4)!=HAL_OK)//如果DMA传输完成，获取标志位，返回值是1
+		 {
+				__HAL_DMA_CLEAR_FLAG(&hdma_memtomem_dma2_stream0, DMA_FLAG_TCIF0_4);  //清除标志位
+		 }  
+//    for(uint32_t i = 0; i < draw_size; i++)
+//    {
+//        lcd_wr_data(color[i]);
+//    }
 }
 /**********************
  *  STATIC PROTOTYPES
@@ -56,7 +61,13 @@ static void disp_flush(lv_disp_drv_t * disp_drv, const lv_area_t * area, lv_colo
 /**********************
  *  STATIC VARIABLES
  **********************/
+static lv_disp_drv_t * disp;
 
+
+void dma_call_back(DMA_HandleTypeDef *_hdma)
+{
+	lv_disp_flush_ready(disp);
+}
 /**********************
  *      MACROS
  **********************/
@@ -71,7 +82,7 @@ void lv_port_disp_init(void)
      * Initialize your display
      * -----------------------*/
     disp_init();
-
+ HAL_DMA_RegisterCallback(&hdma_memtomem_dma2_stream0,HAL_DMA_XFER_CPLT_CB_ID,&dma_call_back);
     /*-----------------------------
      * Create a buffer for drawing
      *----------------------------*/
@@ -98,15 +109,15 @@ void lv_port_disp_init(void)
      */
 
     /* Example for 1) */
-    static lv_disp_draw_buf_t draw_buf_dsc_1;
-    static lv_color_t buf_1[MY_DISP_HOR_RES * 10];                          /*A buffer for 10 rows*/
-    lv_disp_draw_buf_init(&draw_buf_dsc_1, buf_1, NULL, MY_DISP_HOR_RES * 10);   /*Initialize the display buffer*/
+//    static lv_disp_draw_buf_t draw_buf_dsc_1;
+//    static lv_color_t buf_1[MY_DISP_HOR_RES * 10];                          /*A buffer for 10 rows*/
+//    lv_disp_draw_buf_init(&draw_buf_dsc_1, buf_1, NULL, MY_DISP_HOR_RES * 10);   /*Initialize the display buffer*/
 
 //    /* Example for 2) */
-//    static lv_disp_draw_buf_t draw_buf_dsc_2;
-//    static lv_color_t buf_2_1[MY_DISP_HOR_RES * 10];                        /*A buffer for 10 rows*/
-//    static lv_color_t buf_2_2[MY_DISP_HOR_RES * 10];                        /*An other buffer for 10 rows*/
-//    lv_disp_draw_buf_init(&draw_buf_dsc_2, buf_2_1, buf_2_2, MY_DISP_HOR_RES * 10);   /*Initialize the display buffer*/
+    static lv_disp_draw_buf_t draw_buf_dsc_2;
+    static lv_color_t buf_2_1[MY_DISP_HOR_RES * 40];                        /*A buffer for 10 rows*/
+    static lv_color_t buf_2_2[MY_DISP_HOR_RES * 40];                        /*An other buffer for 10 rows*/
+    lv_disp_draw_buf_init(&draw_buf_dsc_2, buf_2_1, buf_2_2, MY_DISP_HOR_RES * 40);   /*Initialize the display buffer*/
 
 //    /* Example for 3) also set disp_drv.full_refresh = 1 below*/
 //    static lv_disp_draw_buf_t draw_buf_dsc_3;
@@ -132,7 +143,7 @@ void lv_port_disp_init(void)
     disp_drv.flush_cb = disp_flush;
 
     /*Set a display buffer*/
-    disp_drv.draw_buf = &draw_buf_dsc_1;
+    disp_drv.draw_buf = &draw_buf_dsc_2;
 
     /*Required for Example 3)*/
     //disp_drv.full_refresh = 1;
@@ -190,10 +201,11 @@ static void disp_flush(lv_disp_drv_t * disp_drv, const lv_area_t * area, lv_colo
 //            }
 //        }
 //    }
+	disp = disp_drv;
 		lcd_draw_fast_rgb_color(area->x1, area->y1,area->x2, area->y2, (uint16_t*)color_p);
     /*IMPORTANT!!!
      *Inform the graphics library that you are ready with the flushing*/
-    lv_disp_flush_ready(disp_drv);
+    //lv_disp_flush_ready(disp_drv);
 }
 
 /*OPTIONAL: GPU INTERFACE*/

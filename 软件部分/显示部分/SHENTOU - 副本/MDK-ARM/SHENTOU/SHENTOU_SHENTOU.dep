@@ -215,7 +215,7 @@ I (..\lvgl\examples\porting\lv_port_indev_template.h)(0x660D2713)
 I (..\lvgl\examples\porting\lv_port_disp_template.h)(0x660CE31A)
 I (..\lvgl\stress\lv_demo_stress.ht.\lvgl\stress\..\lv_demos.h)(0x00000000)
 I (..\lvgl\examples\..\lvgl.he.\generated\gui_guider.h)(0x00000000)
-I (..\generated\events_init.h)(0x66643D3E)
+I (..\generated\events_init.h)(0x666591D6)
 F (../Core/Src/gpio.c)(0x6662E99D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/gpio.o -MD)
 I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x6656FDF1)
 I (..\Core\Inc\stm32f4xx_hal_conf.h)(0x6661C372)
@@ -1247,7 +1247,7 @@ I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_fsmc.h)(0x6656FDF1)
 I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x6656FDF1)
 I (..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x6656FDF1)
 I (..\Drivers\delay\delay.h)(0x665F0829)
-F (..\Drivers\Touch\touch.c)(0x6662F843)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/touch.o -MD)
+F (..\Drivers\Touch\touch.c)(0x6665926B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/touch.o -MD)
 I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
 I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
 I (..\Drivers\LCD\lcd.hl.\Core\Inc\main.h)(0x00000000)
@@ -17962,8 +17962,189 @@ I (..\lvgl\examples\..\src\extra\widgets\imgbtn\lv_imgbtn.h)(0x650AC175)
 I (..\lvgl\examples\..\src\extra\widgets\imgbtn\..\..\..\lvgl.h)(0x650AC175)
 I (..\lvgl\examples\..\src\extra\widgets\span\lv_span.h)(0x650AC175)
 I (..\lvgl\examples\..\src\extra\widgets\span\..\..\..\lvgl.h)(0x650AC175)
-F (..\generated\events_init.c)(0x66643D3E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/events_init.o -MD)
-I (..\generated\events_init.h)(0x66643D3E)
+F (..\custom\custom.c)(0x665F1927)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/custom.o -MD)
+I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdio.hv\lvgl\lvgl.h)(0x00000000)
+I (..\lvgl\src\misc\lv_log.hA.\lvgl\src\misc\..\lv_conf_internal.h)(0x00000000)
+I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
+I (..\lvgl\src\misc\..\lv_conf_kconfig.h\.\lvgl\lv_conf.h)(0x00000000)
+I (..\lvgl\src\misc\lv_types.h_.\lvgl\src\misc\lv_timer.h)(0x00000000)
+I (..\lvgl\src\misc\..\hal\lv_hal_tick.h)(0x650AC175)
+I (..\lvgl\src\misc\..\hal\..\lv_conf_internal.h)(0x650AC175)
+I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
+I (..\lvgl\src\misc\lv_math.hR.\lvgl\src\misc\lv_mem.h)(0x00000000)
+I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
+I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
+I (..\lvgl\src\misc\lv_async.hM.\lvgl\src\misc\lv_anim_timeline.h)(0x00000000)
+I (..\lvgl\src\misc\lv_anim.hh.\lvgl\src\misc\lv_printf.h)(0x00000000)
+I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\inttypes.h)(0x6569B012)
+I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6569B012)
+I (..\lvgl\src\hal\lv_hal.h\.\lvgl\src\hal\lv_hal_disp.h)(0x00000000)
+I (..\lvgl\src\hal\..\draw\lv_draw.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\lv_conf_internal.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\lv_style.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\..\font\lv_font.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\lv_conf_internal.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\..\font\lv_symbol_def.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\misc\lv_area.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\misc\..\lv_conf_internal.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\lv_color.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\..\lv_conf_internal.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\lv_assert.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\lv_log.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\lv_mem.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\lv_math.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\lv_types.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\lv_area.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\lv_anim.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\lv_txt.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\lv_printf.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\lv_bidi.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\lv_style_gen.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\lv_img_decoder.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\lv_img_buf.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\..\misc\lv_fs.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\lv_img_cache.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\lv_draw_rect.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\sw\lv_draw_sw_gradient.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\sw\..\..\misc\lv_color.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\sw\..\..\misc\lv_style.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\sw\lv_draw_sw_dither.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\sw\..\..\core\lv_obj_pos.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\sw\..\..\core\..\misc\lv_area.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\lv_draw_label.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\lv_draw_img.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\lv_draw_line.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\lv_draw_triangle.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\lv_draw_arc.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\lv_draw_mask.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\lv_draw_transform.h)(0x650AC175)
+I (..\lvgl\src\hal\..\draw\lv_draw_layer.h)(0x650AC175)
+I (..\lvgl\src\hal\..\misc\lv_color.hy.\lvgl\src\hal\..\misc\lv_area.h)(0x00000000)
+I (..\lvgl\src\hal\..\misc\lv_ll.hr.\lvgl\src\hal\..\misc\lv_timer.h)(0x00000000)
+I (..\lvgl\src\hal\lv_hal_indev.hh.\lvgl\src\hal\..\lv_conf_internal.h)(0x00000000)
+I (..\lvgl\src\hal\lv_hal_tick.hh.\lvgl\src\core\lv_obj.h)(0x00000000)
+I (..\lvgl\src\core\..\lv_conf_internal.h)(0x650AC175)
+I (..\lvgl\src\core\..\misc\lv_style.h)(0x650AC175)
+I (..\lvgl\src\core\..\misc\lv_types.h)(0x650AC175)
+I (..\lvgl\src\core\..\misc\lv_color.h)(0x650AC175)
+I (..\lvgl\src\core\..\misc\lv_assert.h..\lvgl\src\core\..\hal\lv_hal.h)(0x00000000)
+I (..\lvgl\src\core\lv_obj_tree.hs.\lvgl\src\core\lv_obj_pos.h)(0x00000000)
+I (..\lvgl\src\core\lv_obj_scroll.h\.\lvgl\src\core\..\misc\lv_anim.h)(0x00000000)
+I (..\lvgl\src\core\lv_obj_style.hh.\lvgl\src\core\..\misc\lv_bidi.h)(0x00000000)
+I (..\lvgl\src\core\lv_obj_style_gen.hv.\lvgl\src\core\lv_obj_draw.h)(0x00000000)
+I (..\lvgl\src\core\..\draw\lv_draw.hh.\lvgl\src\core\lv_obj_class.h)(0x00000000)
+I (..\lvgl\src\core\lv_event.h_.\lvgl\src\core\lv_group.h)(0x00000000)
+I (..\lvgl\src\core\..\misc\lv_ll.hg.\lvgl\src\core\lv_indev.h)(0x00000000)
+I (..\lvgl\src\core\..\hal\lv_hal_indev.hl.\lvgl\src\core\lv_refr.h)(0x00000000)
+I (..\lvgl\src\core\lv_disp.h_.\lvgl\src\core\lv_theme.h)(0x00000000)
+I (..\lvgl\src\core\..\core\lv_obj.h\.\lvgl\src\font\lv_font.h)(0x00000000)
+I (..\lvgl\src\font\lv_font_loader.h\.\lvgl\src\font\lv_font_fmt_txt.h)(0x00000000)
+I (..\lvgl\src\widgets\lv_arc.hd.\lvgl\src\widgets\..\lv_conf_internal.h)(0x00000000)
+I (..\lvgl\src\widgets\..\core\lv_obj.hs.\lvgl\src\widgets\lv_btn.h)(0x00000000)
+I (..\lvgl\src\widgets\lv_img.hl.\lvgl\src\widgets\..\misc\lv_fs.h)(0x00000000)
+I (..\lvgl\src\widgets\..\draw\lv_draw.hr.\lvgl\src\widgets\lv_label.h)(0x00000000)
+I (..\lvgl\src\widgets\..\font\lv_font.h)(0x650AC175)
+I (..\lvgl\src\widgets\..\font\lv_symbol_def.h)(0x650AC175)
+I (..\lvgl\src\widgets\..\misc\lv_txt.hl.\lvgl\src\widgets\lv_line.h)(0x00000000)
+I (..\lvgl\src\widgets\lv_table.h_.\lvgl\src\widgets\lv_checkbox.h)(0x00000000)
+I (..\lvgl\src\widgets\lv_bar.h..\lvgl\src\widgets\..\misc\lv_anim.h)(0x00000000)
+I (..\lvgl\src\widgets\lv_slider.hl.\lvgl\src\widgets\lv_btnmatrix.h)(0x00000000)
+I (..\lvgl\src\widgets\lv_dropdown.h)(0x650AC175)
+I (..\lvgl\src\widgets\..\widgets\lv_label.h)(0x650AC175)
+I (..\lvgl\src\widgets\lv_roller.hl.\lvgl\src\widgets\lv_textarea.h)(0x00000000)
+I (..\lvgl\src\widgets\lv_canvas.h)(0x650AC175)
+I (..\lvgl\src\widgets\..\widgets\lv_img.h)(0x650AC175)
+I (..\lvgl\src\widgets\..\draw\lv_draw_img.h)(0x650AC175)
+I (..\lvgl\src\widgets\lv_switch.hd.\lvgl\src\draw\lv_draw.h)(0x00000000)
+I (..\lvgl\src\lv_api_map.hw.\lvgl\src\..\lvgl.h)(0x00000000)
+I (..\lvgl\src\extra\lv_extra.hv.\lvgl\src\extra\layouts\lv_layouts.h)(0x00000000)
+I (..\lvgl\src\extra\layouts\flex\lv_flex.h)(0x650AC175)
+I (..\lvgl\src\extra\layouts\flex\..\..\..\core\lv_obj.h)(0x650AC175)
+I (..\lvgl\src\extra\layouts\grid\lv_grid.h)(0x650AC175)
+I (..\lvgl\src\extra\layouts\grid\..\..\..\core\lv_obj.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\lv_libs.h..\lvgl\src\extra\libs\bmp\lv_bmp.h)(0x00000000)
+I (..\lvgl\src\extra\libs\bmp\..\..\..\lv_conf_internal.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\fsdrv\lv_fsdrv.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\fsdrv\..\..\..\lv_conf_internal.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\png\lv_png.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\png\..\..\..\lv_conf_internal.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\gif\lv_gif.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\gif\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\gif\..\..\..\..\lvgl.h)(0x66643B89)
+I (..\lvgl\src\extra\libs\qrcode\lv_qrcode.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\qrcode\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\sjpg\lv_sjpg.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\freetype\lv_freetype.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\freetype\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\rlottie\lv_rlottie.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\rlottie\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\ffmpeg\lv_ffmpeg.h)(0x650AC175)
+I (..\lvgl\src\extra\libs\ffmpeg\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\others\lv_others.h)(0x650AC175)
+I (..\lvgl\src\extra\others\snapshot\lv_snapshot.h)(0x650AC175)
+I (..\lvgl\src\extra\others\snapshot\..\..\..\lv_conf_internal.h)(0x650AC175)
+I (..\lvgl\src\extra\others\snapshot\..\..\..\core\lv_obj.h)(0x650AC175)
+I (..\lvgl\src\extra\others\monkey\lv_monkey.h)(0x650AC175)
+I (..\lvgl\src\extra\others\monkey\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\others\gridnav\lv_gridnav.h)(0x650AC175)
+I (..\lvgl\src\extra\others\gridnav\..\..\..\core\lv_obj.h)(0x650AC175)
+I (..\lvgl\src\extra\others\fragment\lv_fragment.h)(0x650AC175)
+I (..\lvgl\src\extra\others\fragment\..\..\..\lv_conf_internal.h)(0x650AC175)
+I (..\lvgl\src\extra\others\imgfont\lv_imgfont.h)(0x650AC175)
+I (..\lvgl\src\extra\others\imgfont\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\others\msg\lv_msg.h)(0x650AC175)
+I (..\lvgl\src\extra\others\msg\..\..\..\core\lv_obj.h)(0x650AC175)
+I (..\lvgl\src\extra\others\ime\lv_ime_pinyin.h)(0x650AC175)
+I (..\lvgl\src\extra\others\ime\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\themes\lv_themes.h)(0x650AC175)
+I (..\lvgl\src\extra\themes\default\lv_theme_default.h)(0x650AC175)
+I (..\lvgl\src\extra\themes\default\..\..\..\core\lv_obj.h)(0x650AC175)
+I (..\lvgl\src\extra\themes\mono\lv_theme_mono.h)(0x650AC175)
+I (..\lvgl\src\extra\themes\mono\..\..\..\core\lv_obj.h)(0x650AC175)
+I (..\lvgl\src\extra\themes\basic\lv_theme_basic.h)(0x650AC175)
+I (..\lvgl\src\extra\themes\basic\..\..\..\core\lv_obj.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\lv_widgets.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\animimg\lv_animimg.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\animimg\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\calendar\lv_calendar.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\calendar\..\..\..\widgets\lv_btnmatrix.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\calendar\lv_calendar_header_arrow.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\calendar\..\..\..\core\lv_obj.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\calendar\lv_calendar_header_dropdown.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\chart\lv_chart.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\chart\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\keyboard\lv_keyboard.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\keyboard\..\..\..\widgets\lv_btnmatrix.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\list\lv_list.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\list\..\..\..\core\lv_obj.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\list\..\..\layouts\flex\lv_flex.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\menu\lv_menu.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\menu\..\..\..\core\lv_obj.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\msgbox\lv_msgbox.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\msgbox\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\meter\lv_meter.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\meter\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\spinbox\lv_spinbox.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\spinbox\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\spinner\lv_spinner.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\spinner\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\tabview\lv_tabview.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\tabview\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\tileview\lv_tileview.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\tileview\..\..\..\core\lv_obj.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\win\lv_win.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\win\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\colorwheel\lv_colorwheel.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\colorwheel\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\led\lv_led.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\led\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\imgbtn\lv_imgbtn.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\imgbtn\..\..\..\lvgl.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\span\lv_span.h)(0x650AC175)
+I (..\lvgl\src\extra\widgets\span\..\..\..\lvgl.h..\custom\custom.h)(0x00000000)
+I (..\generated\gui_guider.h)(0x666591D6)
+F (..\generated\events_init.c)(0x666591D6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/events_init.o -MD)
+I (..\generated\events_init.h)(0x666591D6)
 I (..\lvgl\src\misc\lv_log.hh.\lvgl\src\misc\..\lv_conf_internal.h)(0x00000000)
 I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
 I (..\lvgl\src\misc\..\lv_conf_kconfig.h\.\lvgl\lv_conf.h)(0x00000000)
@@ -18143,8 +18324,7 @@ I (..\lvgl\src\extra\widgets\imgbtn\..\..\..\lvgl.h)(0x650AC175)
 I (..\lvgl\src\extra\widgets\span\lv_span.h)(0x650AC175)
 I (..\lvgl\src\extra\widgets\span\..\..\..\lvgl.h)(0x650AC175)
 I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
-I (..\custom\custom.h)(0x666436D4)
-F (..\generated\gui_guider.c)(0x66643D3E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/gui_guider.o -MD)
+F (..\generated\gui_guider.c)(0x666591D6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/gui_guider.o -MD)
 I (..\lvgl\src\misc\lv_log.hA.\lvgl\src\misc\..\lv_conf_internal.h)(0x00000000)
 I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
 I (..\lvgl\src\misc\..\lv_conf_kconfig.h\.\lvgl\lv_conf.h)(0x00000000)
@@ -18324,8 +18504,8 @@ I (..\lvgl\src\extra\widgets\imgbtn\..\..\..\lvgl.h)(0x650AC175)
 I (..\lvgl\src\extra\widgets\span\lv_span.h)(0x650AC175)
 I (..\lvgl\src\extra\widgets\span\..\..\..\lvgl.h)(0x650AC175)
 I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
-I (..\generated\gui_guider.h)(0x66643D3E)
-F (..\generated\setup_scr_WidgetsDemo.c)(0x66643D40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/setup_scr_widgetsdemo.o -MD)
+I (..\generated\gui_guider.h)(0x666591D6)
+F (..\generated\setup_scr_screen.c)(0x666591D6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/setup_scr_screen.o -MD)
 I (..\lvgl\lvgl.he.\lvgl\src\misc\lv_log.h)(0x00000000)
 I (..\lvgl\src\misc\..\lv_conf_internal.h)(0x650AC175)
 I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
@@ -18508,7 +18688,7 @@ I (..\lvgl\src\extra\widgets\span\..\..\..\lvgl.h)(0x650AC175)
 I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
 I (..\generated\gui_guider.hA.\generated\events_init.h)(0x00000000)
 I (..\generated\widgets_init.h\.\custom\custom.h)(0x00000000)
-F (..\generated\widgets_init.c)(0x66643D40)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/widgets_init.o -MD)
+F (..\generated\widgets_init.c)(0x666591D6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/widgets_init.o -MD)
 I (..\lvgl\src\misc\lv_log.h..\lvgl\src\misc\..\lv_conf_internal.h)(0x00000000)
 I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
 I (..\lvgl\src\misc\..\lv_conf_kconfig.h\.\lvgl\lv_conf.h)(0x00000000)
@@ -18689,366 +18869,7 @@ I (..\lvgl\src\extra\widgets\span\lv_span.h)(0x650AC175)
 I (..\lvgl\src\extra\widgets\span\..\..\..\lvgl.h)(0x650AC175)
 I (..\generated\gui_guider.h\.\generated\widgets_init.h)(0x00000000)
 I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x6569B012)
-F (..\generated\images\_avatar_alpha_96x96.c)(0x66643E0B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/_avatar_alpha_96x96.o -MD)
-I (..\lvgl\lvgl.hm.\lvgl\src\misc\lv_log.h)(0x00000000)
-I (..\lvgl\src\misc\..\lv_conf_internal.h)(0x650AC175)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (..\lvgl\src\misc\..\lv_conf_kconfig.h\.\lvgl\lv_conf.h)(0x00000000)
-I (..\lvgl\src\misc\lv_types.h_.\lvgl\src\misc\lv_timer.h)(0x00000000)
-I (..\lvgl\src\misc\..\hal\lv_hal_tick.h)(0x650AC175)
-I (..\lvgl\src\misc\..\hal\..\lv_conf_internal.h)(0x650AC175)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
-I (..\lvgl\src\misc\lv_math.hR.\lvgl\src\misc\lv_mem.h)(0x00000000)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
-I (..\lvgl\src\misc\lv_async.hM.\lvgl\src\misc\lv_anim_timeline.h)(0x00000000)
-I (..\lvgl\src\misc\lv_anim.hh.\lvgl\src\misc\lv_printf.h)(0x00000000)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\inttypes.h)(0x6569B012)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6569B012)
-I (..\lvgl\src\hal\lv_hal.h\.\lvgl\src\hal\lv_hal_disp.h)(0x00000000)
-I (..\lvgl\src\hal\..\draw\lv_draw.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_style.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\lv_font.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\lv_symbol_def.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\misc\lv_area.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\misc\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_color.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_assert.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_log.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_mem.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_math.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_types.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_area.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_anim.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_txt.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_printf.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_bidi.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_style_gen.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_img_decoder.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_img_buf.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_fs.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_img_cache.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_rect.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\lv_draw_sw_gradient.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\misc\lv_color.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\misc\lv_style.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\lv_draw_sw_dither.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\core\lv_obj_pos.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\core\..\misc\lv_area.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_label.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_img.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_line.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_triangle.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_arc.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_mask.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_transform.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_layer.h)(0x650AC175)
-I (..\lvgl\src\hal\..\misc\lv_color.hy.\lvgl\src\hal\..\misc\lv_area.h)(0x00000000)
-I (..\lvgl\src\hal\..\misc\lv_ll.hr.\lvgl\src\hal\..\misc\lv_timer.h)(0x00000000)
-I (..\lvgl\src\hal\lv_hal_indev.hh.\lvgl\src\hal\..\lv_conf_internal.h)(0x00000000)
-I (..\lvgl\src\hal\lv_hal_tick.hh.\lvgl\src\core\lv_obj.h)(0x00000000)
-I (..\lvgl\src\core\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_style.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_types.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_color.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_assert.h..\lvgl\src\core\..\hal\lv_hal.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_tree.hs.\lvgl\src\core\lv_obj_pos.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_scroll.h\.\lvgl\src\core\..\misc\lv_anim.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_style.hh.\lvgl\src\core\..\misc\lv_bidi.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_style_gen.hv.\lvgl\src\core\lv_obj_draw.h)(0x00000000)
-I (..\lvgl\src\core\..\draw\lv_draw.hh.\lvgl\src\core\lv_obj_class.h)(0x00000000)
-I (..\lvgl\src\core\lv_event.h_.\lvgl\src\core\lv_group.h)(0x00000000)
-I (..\lvgl\src\core\..\misc\lv_ll.hg.\lvgl\src\core\lv_indev.h)(0x00000000)
-I (..\lvgl\src\core\..\hal\lv_hal_indev.hl.\lvgl\src\core\lv_refr.h)(0x00000000)
-I (..\lvgl\src\core\lv_disp.h_.\lvgl\src\core\lv_theme.h)(0x00000000)
-I (..\lvgl\src\core\..\core\lv_obj.h\.\lvgl\src\font\lv_font.h)(0x00000000)
-I (..\lvgl\src\font\lv_font_loader.h\.\lvgl\src\font\lv_font_fmt_txt.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_arc.hd.\lvgl\src\widgets\..\lv_conf_internal.h)(0x00000000)
-I (..\lvgl\src\widgets\..\core\lv_obj.hs.\lvgl\src\widgets\lv_btn.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_img.hl.\lvgl\src\widgets\..\misc\lv_fs.h)(0x00000000)
-I (..\lvgl\src\widgets\..\draw\lv_draw.hr.\lvgl\src\widgets\lv_label.h)(0x00000000)
-I (..\lvgl\src\widgets\..\font\lv_font.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\font\lv_symbol_def.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\misc\lv_txt.hl.\lvgl\src\widgets\lv_line.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_table.h_.\lvgl\src\widgets\lv_checkbox.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_bar.h..\lvgl\src\widgets\..\misc\lv_anim.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_slider.hl.\lvgl\src\widgets\lv_btnmatrix.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_dropdown.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\widgets\lv_label.h)(0x650AC175)
-I (..\lvgl\src\widgets\lv_roller.hl.\lvgl\src\widgets\lv_textarea.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_canvas.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\widgets\lv_img.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\draw\lv_draw_img.h)(0x650AC175)
-I (..\lvgl\src\widgets\lv_switch.hd.\lvgl\src\draw\lv_draw.h)(0x00000000)
-I (..\lvgl\src\lv_api_map.hw.\lvgl\src\..\lvgl.h)(0x00000000)
-I (..\lvgl\src\extra\lv_extra.hv.\lvgl\src\extra\layouts\lv_layouts.h)(0x00000000)
-I (..\lvgl\src\extra\layouts\flex\lv_flex.h)(0x650AC175)
-I (..\lvgl\src\extra\layouts\flex\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\layouts\grid\lv_grid.h)(0x650AC175)
-I (..\lvgl\src\extra\layouts\grid\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\lv_libs.h..\lvgl\src\extra\libs\bmp\lv_bmp.h)(0x00000000)
-I (..\lvgl\src\extra\libs\bmp\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\fsdrv\lv_fsdrv.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\fsdrv\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\png\lv_png.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\png\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\gif\lv_gif.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\gif\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\gif\..\..\..\..\lvgl.h)(0x66643B89)
-I (..\lvgl\src\extra\libs\qrcode\lv_qrcode.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\qrcode\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\sjpg\lv_sjpg.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\freetype\lv_freetype.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\freetype\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\rlottie\lv_rlottie.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\rlottie\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\ffmpeg\lv_ffmpeg.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\ffmpeg\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\others\lv_others.h)(0x650AC175)
-I (..\lvgl\src\extra\others\snapshot\lv_snapshot.h)(0x650AC175)
-I (..\lvgl\src\extra\others\snapshot\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\others\snapshot\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\others\monkey\lv_monkey.h)(0x650AC175)
-I (..\lvgl\src\extra\others\monkey\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\others\gridnav\lv_gridnav.h)(0x650AC175)
-I (..\lvgl\src\extra\others\gridnav\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\others\fragment\lv_fragment.h)(0x650AC175)
-I (..\lvgl\src\extra\others\fragment\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\others\imgfont\lv_imgfont.h)(0x650AC175)
-I (..\lvgl\src\extra\others\imgfont\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\others\msg\lv_msg.h)(0x650AC175)
-I (..\lvgl\src\extra\others\msg\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\others\ime\lv_ime_pinyin.h)(0x650AC175)
-I (..\lvgl\src\extra\others\ime\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\lv_themes.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\default\lv_theme_default.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\default\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\mono\lv_theme_mono.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\mono\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\basic\lv_theme_basic.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\basic\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\lv_widgets.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\animimg\lv_animimg.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\animimg\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\lv_calendar.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\..\..\..\widgets\lv_btnmatrix.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\lv_calendar_header_arrow.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\lv_calendar_header_dropdown.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\chart\lv_chart.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\chart\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\keyboard\lv_keyboard.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\keyboard\..\..\..\widgets\lv_btnmatrix.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\list\lv_list.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\list\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\list\..\..\layouts\flex\lv_flex.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\menu\lv_menu.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\menu\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\msgbox\lv_msgbox.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\msgbox\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\meter\lv_meter.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\meter\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinbox\lv_spinbox.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinbox\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinner\lv_spinner.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinner\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tabview\lv_tabview.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tabview\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tileview\lv_tileview.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tileview\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\win\lv_win.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\win\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\colorwheel\lv_colorwheel.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\colorwheel\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\led\lv_led.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\led\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\imgbtn\lv_imgbtn.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\imgbtn\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\span\lv_span.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\span\..\..\..\lvgl.h)(0x650AC175)
-F (..\generated\images\_clothes_alpha_39x53.c)(0x66643E0B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/_clothes_alpha_39x53.o -MD)
-I (..\lvgl\src\misc\lv_log.hh.\lvgl\src\misc\..\lv_conf_internal.h)(0x00000000)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (..\lvgl\src\misc\..\lv_conf_kconfig.h\.\lvgl\lv_conf.h)(0x00000000)
-I (..\lvgl\src\misc\lv_types.h_.\lvgl\src\misc\lv_timer.h)(0x00000000)
-I (..\lvgl\src\misc\..\hal\lv_hal_tick.h)(0x650AC175)
-I (..\lvgl\src\misc\..\hal\..\lv_conf_internal.h)(0x650AC175)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
-I (..\lvgl\src\misc\lv_math.hR.\lvgl\src\misc\lv_mem.h)(0x00000000)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
-I (..\lvgl\src\misc\lv_async.hM.\lvgl\src\misc\lv_anim_timeline.h)(0x00000000)
-I (..\lvgl\src\misc\lv_anim.hh.\lvgl\src\misc\lv_printf.h)(0x00000000)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\inttypes.h)(0x6569B012)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6569B012)
-I (..\lvgl\src\hal\lv_hal.h\.\lvgl\src\hal\lv_hal_disp.h)(0x00000000)
-I (..\lvgl\src\hal\..\draw\lv_draw.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_style.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\lv_font.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\lv_symbol_def.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\misc\lv_area.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\misc\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_color.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_assert.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_log.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_mem.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_math.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_types.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_area.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_anim.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_txt.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_printf.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_bidi.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_style_gen.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_img_decoder.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_img_buf.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_fs.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_img_cache.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_rect.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\lv_draw_sw_gradient.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\misc\lv_color.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\misc\lv_style.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\lv_draw_sw_dither.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\core\lv_obj_pos.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\core\..\misc\lv_area.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_label.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_img.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_line.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_triangle.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_arc.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_mask.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_transform.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_layer.h)(0x650AC175)
-I (..\lvgl\src\hal\..\misc\lv_color.hy.\lvgl\src\hal\..\misc\lv_area.h)(0x00000000)
-I (..\lvgl\src\hal\..\misc\lv_ll.hr.\lvgl\src\hal\..\misc\lv_timer.h)(0x00000000)
-I (..\lvgl\src\hal\lv_hal_indev.hh.\lvgl\src\hal\..\lv_conf_internal.h)(0x00000000)
-I (..\lvgl\src\hal\lv_hal_tick.hh.\lvgl\src\core\lv_obj.h)(0x00000000)
-I (..\lvgl\src\core\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_style.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_types.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_color.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_assert.h..\lvgl\src\core\..\hal\lv_hal.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_tree.hs.\lvgl\src\core\lv_obj_pos.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_scroll.h\.\lvgl\src\core\..\misc\lv_anim.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_style.hh.\lvgl\src\core\..\misc\lv_bidi.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_style_gen.hv.\lvgl\src\core\lv_obj_draw.h)(0x00000000)
-I (..\lvgl\src\core\..\draw\lv_draw.hh.\lvgl\src\core\lv_obj_class.h)(0x00000000)
-I (..\lvgl\src\core\lv_event.h_.\lvgl\src\core\lv_group.h)(0x00000000)
-I (..\lvgl\src\core\..\misc\lv_ll.hg.\lvgl\src\core\lv_indev.h)(0x00000000)
-I (..\lvgl\src\core\..\hal\lv_hal_indev.hl.\lvgl\src\core\lv_refr.h)(0x00000000)
-I (..\lvgl\src\core\lv_disp.h_.\lvgl\src\core\lv_theme.h)(0x00000000)
-I (..\lvgl\src\core\..\core\lv_obj.h\.\lvgl\src\font\lv_font.h)(0x00000000)
-I (..\lvgl\src\font\lv_font_loader.h\.\lvgl\src\font\lv_font_fmt_txt.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_arc.hd.\lvgl\src\widgets\..\lv_conf_internal.h)(0x00000000)
-I (..\lvgl\src\widgets\..\core\lv_obj.hs.\lvgl\src\widgets\lv_btn.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_img.hl.\lvgl\src\widgets\..\misc\lv_fs.h)(0x00000000)
-I (..\lvgl\src\widgets\..\draw\lv_draw.hr.\lvgl\src\widgets\lv_label.h)(0x00000000)
-I (..\lvgl\src\widgets\..\font\lv_font.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\font\lv_symbol_def.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\misc\lv_txt.hl.\lvgl\src\widgets\lv_line.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_table.h_.\lvgl\src\widgets\lv_checkbox.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_bar.h..\lvgl\src\widgets\..\misc\lv_anim.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_slider.hl.\lvgl\src\widgets\lv_btnmatrix.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_dropdown.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\widgets\lv_label.h)(0x650AC175)
-I (..\lvgl\src\widgets\lv_roller.hl.\lvgl\src\widgets\lv_textarea.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_canvas.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\widgets\lv_img.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\draw\lv_draw_img.h)(0x650AC175)
-I (..\lvgl\src\widgets\lv_switch.hd.\lvgl\src\draw\lv_draw.h)(0x00000000)
-I (..\lvgl\src\lv_api_map.hw.\lvgl\src\..\lvgl.h)(0x00000000)
-I (..\lvgl\src\extra\lv_extra.hv.\lvgl\src\extra\layouts\lv_layouts.h)(0x00000000)
-I (..\lvgl\src\extra\layouts\flex\lv_flex.h)(0x650AC175)
-I (..\lvgl\src\extra\layouts\flex\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\layouts\grid\lv_grid.h)(0x650AC175)
-I (..\lvgl\src\extra\layouts\grid\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\lv_libs.h..\lvgl\src\extra\libs\bmp\lv_bmp.h)(0x00000000)
-I (..\lvgl\src\extra\libs\bmp\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\fsdrv\lv_fsdrv.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\fsdrv\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\png\lv_png.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\png\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\gif\lv_gif.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\gif\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\gif\..\..\..\..\lvgl.h)(0x66643B89)
-I (..\lvgl\src\extra\libs\qrcode\lv_qrcode.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\qrcode\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\sjpg\lv_sjpg.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\freetype\lv_freetype.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\freetype\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\rlottie\lv_rlottie.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\rlottie\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\ffmpeg\lv_ffmpeg.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\ffmpeg\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\others\lv_others.h)(0x650AC175)
-I (..\lvgl\src\extra\others\snapshot\lv_snapshot.h)(0x650AC175)
-I (..\lvgl\src\extra\others\snapshot\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\others\snapshot\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\others\monkey\lv_monkey.h)(0x650AC175)
-I (..\lvgl\src\extra\others\monkey\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\others\gridnav\lv_gridnav.h)(0x650AC175)
-I (..\lvgl\src\extra\others\gridnav\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\others\fragment\lv_fragment.h)(0x650AC175)
-I (..\lvgl\src\extra\others\fragment\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\others\imgfont\lv_imgfont.h)(0x650AC175)
-I (..\lvgl\src\extra\others\imgfont\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\others\msg\lv_msg.h)(0x650AC175)
-I (..\lvgl\src\extra\others\msg\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\others\ime\lv_ime_pinyin.h)(0x650AC175)
-I (..\lvgl\src\extra\others\ime\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\lv_themes.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\default\lv_theme_default.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\default\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\mono\lv_theme_mono.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\mono\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\basic\lv_theme_basic.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\basic\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\lv_widgets.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\animimg\lv_animimg.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\animimg\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\lv_calendar.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\..\..\..\widgets\lv_btnmatrix.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\lv_calendar_header_arrow.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\lv_calendar_header_dropdown.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\chart\lv_chart.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\chart\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\keyboard\lv_keyboard.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\keyboard\..\..\..\widgets\lv_btnmatrix.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\list\lv_list.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\list\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\list\..\..\layouts\flex\lv_flex.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\menu\lv_menu.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\menu\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\msgbox\lv_msgbox.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\msgbox\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\meter\lv_meter.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\meter\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinbox\lv_spinbox.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinbox\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinner\lv_spinner.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinner\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tabview\lv_tabview.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tabview\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tileview\lv_tileview.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tileview\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\win\lv_win.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\win\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\colorwheel\lv_colorwheel.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\colorwheel\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\led\lv_led.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\led\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\imgbtn\lv_imgbtn.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\imgbtn\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\span\lv_span.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\span\..\..\..\lvgl.h)(0x650AC175)
-F (..\generated\guider_fonts\lv_font_montserratMedium_10.c)(0x66643D3E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/lv_font_montserratmedium_10.o -MD)
+F (..\generated\guider_fonts\lv_font_montserratMedium_12.c)(0x666591D5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/lv_font_montserratmedium_12.o -MD)
 I (..\lvgl\src\misc\lv_log.h\.\lvgl\src\misc\..\lv_conf_internal.h)(0x00000000)
 I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
 I (..\lvgl\src\misc\..\lv_conf_kconfig.h\.\lvgl\lv_conf.h)(0x00000000)
@@ -19227,7 +19048,7 @@ I (..\lvgl\src\extra\widgets\imgbtn\lv_imgbtn.h)(0x650AC175)
 I (..\lvgl\src\extra\widgets\imgbtn\..\..\..\lvgl.h)(0x650AC175)
 I (..\lvgl\src\extra\widgets\span\lv_span.h)(0x650AC175)
 I (..\lvgl\src\extra\widgets\span\..\..\..\lvgl.h)(0x650AC175)
-F (..\generated\guider_fonts\lv_font_montserratMedium_13.c)(0x66643D3E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/lv_font_montserratmedium_13.o -MD)
+F (..\generated\guider_fonts\lv_font_montserratMedium_16.c)(0x666591D5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/lv_font_montserratmedium_16.o -MD)
 I (..\lvgl\src\misc\lv_log.h\.\lvgl\src\misc\..\lv_conf_internal.h)(0x00000000)
 I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
 I (..\lvgl\src\misc\..\lv_conf_kconfig.h\.\lvgl\lv_conf.h)(0x00000000)
@@ -19406,186 +19227,7 @@ I (..\lvgl\src\extra\widgets\imgbtn\lv_imgbtn.h)(0x650AC175)
 I (..\lvgl\src\extra\widgets\imgbtn\..\..\..\lvgl.h)(0x650AC175)
 I (..\lvgl\src\extra\widgets\span\lv_span.h)(0x650AC175)
 I (..\lvgl\src\extra\widgets\span\..\..\..\lvgl.h)(0x650AC175)
-F (..\generated\guider_fonts\lv_font_montserratMedium_16.c)(0x66643D3E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/lv_font_montserratmedium_16.o -MD)
-I (..\lvgl\src\misc\lv_log.h\.\lvgl\src\misc\..\lv_conf_internal.h)(0x00000000)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (..\lvgl\src\misc\..\lv_conf_kconfig.h\.\lvgl\lv_conf.h)(0x00000000)
-I (..\lvgl\src\misc\lv_types.h_.\lvgl\src\misc\lv_timer.h)(0x00000000)
-I (..\lvgl\src\misc\..\hal\lv_hal_tick.h)(0x650AC175)
-I (..\lvgl\src\misc\..\hal\..\lv_conf_internal.h)(0x650AC175)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
-I (..\lvgl\src\misc\lv_math.hR.\lvgl\src\misc\lv_mem.h)(0x00000000)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
-I (..\lvgl\src\misc\lv_async.hM.\lvgl\src\misc\lv_anim_timeline.h)(0x00000000)
-I (..\lvgl\src\misc\lv_anim.hh.\lvgl\src\misc\lv_printf.h)(0x00000000)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\inttypes.h)(0x6569B012)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6569B012)
-I (..\lvgl\src\hal\lv_hal.h\.\lvgl\src\hal\lv_hal_disp.h)(0x00000000)
-I (..\lvgl\src\hal\..\draw\lv_draw.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_style.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\lv_font.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\lv_symbol_def.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\misc\lv_area.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\misc\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_color.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_assert.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_log.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_mem.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_math.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_types.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_area.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_anim.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_txt.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_printf.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_bidi.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_style_gen.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_img_decoder.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_img_buf.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_fs.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_img_cache.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_rect.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\lv_draw_sw_gradient.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\misc\lv_color.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\misc\lv_style.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\lv_draw_sw_dither.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\core\lv_obj_pos.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\core\..\misc\lv_area.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_label.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_img.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_line.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_triangle.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_arc.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_mask.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_transform.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_layer.h)(0x650AC175)
-I (..\lvgl\src\hal\..\misc\lv_color.hy.\lvgl\src\hal\..\misc\lv_area.h)(0x00000000)
-I (..\lvgl\src\hal\..\misc\lv_ll.hr.\lvgl\src\hal\..\misc\lv_timer.h)(0x00000000)
-I (..\lvgl\src\hal\lv_hal_indev.hh.\lvgl\src\hal\..\lv_conf_internal.h)(0x00000000)
-I (..\lvgl\src\hal\lv_hal_tick.hh.\lvgl\src\core\lv_obj.h)(0x00000000)
-I (..\lvgl\src\core\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_style.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_types.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_color.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_assert.h..\lvgl\src\core\..\hal\lv_hal.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_tree.hs.\lvgl\src\core\lv_obj_pos.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_scroll.h\.\lvgl\src\core\..\misc\lv_anim.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_style.hh.\lvgl\src\core\..\misc\lv_bidi.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_style_gen.hv.\lvgl\src\core\lv_obj_draw.h)(0x00000000)
-I (..\lvgl\src\core\..\draw\lv_draw.hh.\lvgl\src\core\lv_obj_class.h)(0x00000000)
-I (..\lvgl\src\core\lv_event.h_.\lvgl\src\core\lv_group.h)(0x00000000)
-I (..\lvgl\src\core\..\misc\lv_ll.hg.\lvgl\src\core\lv_indev.h)(0x00000000)
-I (..\lvgl\src\core\..\hal\lv_hal_indev.hl.\lvgl\src\core\lv_refr.h)(0x00000000)
-I (..\lvgl\src\core\lv_disp.h_.\lvgl\src\core\lv_theme.h)(0x00000000)
-I (..\lvgl\src\core\..\core\lv_obj.h\.\lvgl\src\font\lv_font.h)(0x00000000)
-I (..\lvgl\src\font\lv_font_loader.h\.\lvgl\src\font\lv_font_fmt_txt.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_arc.hd.\lvgl\src\widgets\..\lv_conf_internal.h)(0x00000000)
-I (..\lvgl\src\widgets\..\core\lv_obj.hs.\lvgl\src\widgets\lv_btn.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_img.hl.\lvgl\src\widgets\..\misc\lv_fs.h)(0x00000000)
-I (..\lvgl\src\widgets\..\draw\lv_draw.hr.\lvgl\src\widgets\lv_label.h)(0x00000000)
-I (..\lvgl\src\widgets\..\font\lv_font.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\font\lv_symbol_def.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\misc\lv_txt.hl.\lvgl\src\widgets\lv_line.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_table.h_.\lvgl\src\widgets\lv_checkbox.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_bar.h..\lvgl\src\widgets\..\misc\lv_anim.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_slider.hl.\lvgl\src\widgets\lv_btnmatrix.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_dropdown.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\widgets\lv_label.h)(0x650AC175)
-I (..\lvgl\src\widgets\lv_roller.hl.\lvgl\src\widgets\lv_textarea.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_canvas.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\widgets\lv_img.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\draw\lv_draw_img.h)(0x650AC175)
-I (..\lvgl\src\widgets\lv_switch.hd.\lvgl\src\draw\lv_draw.h)(0x00000000)
-I (..\lvgl\src\lv_api_map.hw.\lvgl\src\..\lvgl.h)(0x00000000)
-I (..\lvgl\src\extra\lv_extra.hv.\lvgl\src\extra\layouts\lv_layouts.h)(0x00000000)
-I (..\lvgl\src\extra\layouts\flex\lv_flex.h)(0x650AC175)
-I (..\lvgl\src\extra\layouts\flex\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\layouts\grid\lv_grid.h)(0x650AC175)
-I (..\lvgl\src\extra\layouts\grid\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\lv_libs.h..\lvgl\src\extra\libs\bmp\lv_bmp.h)(0x00000000)
-I (..\lvgl\src\extra\libs\bmp\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\fsdrv\lv_fsdrv.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\fsdrv\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\png\lv_png.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\png\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\gif\lv_gif.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\gif\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\gif\..\..\..\..\lvgl.h)(0x66643B89)
-I (..\lvgl\src\extra\libs\qrcode\lv_qrcode.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\qrcode\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\sjpg\lv_sjpg.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\freetype\lv_freetype.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\freetype\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\rlottie\lv_rlottie.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\rlottie\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\ffmpeg\lv_ffmpeg.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\ffmpeg\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\others\lv_others.h)(0x650AC175)
-I (..\lvgl\src\extra\others\snapshot\lv_snapshot.h)(0x650AC175)
-I (..\lvgl\src\extra\others\snapshot\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\others\snapshot\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\others\monkey\lv_monkey.h)(0x650AC175)
-I (..\lvgl\src\extra\others\monkey\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\others\gridnav\lv_gridnav.h)(0x650AC175)
-I (..\lvgl\src\extra\others\gridnav\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\others\fragment\lv_fragment.h)(0x650AC175)
-I (..\lvgl\src\extra\others\fragment\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\others\imgfont\lv_imgfont.h)(0x650AC175)
-I (..\lvgl\src\extra\others\imgfont\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\others\msg\lv_msg.h)(0x650AC175)
-I (..\lvgl\src\extra\others\msg\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\others\ime\lv_ime_pinyin.h)(0x650AC175)
-I (..\lvgl\src\extra\others\ime\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\lv_themes.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\default\lv_theme_default.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\default\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\mono\lv_theme_mono.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\mono\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\basic\lv_theme_basic.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\basic\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\lv_widgets.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\animimg\lv_animimg.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\animimg\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\lv_calendar.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\..\..\..\widgets\lv_btnmatrix.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\lv_calendar_header_arrow.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\lv_calendar_header_dropdown.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\chart\lv_chart.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\chart\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\keyboard\lv_keyboard.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\keyboard\..\..\..\widgets\lv_btnmatrix.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\list\lv_list.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\list\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\list\..\..\layouts\flex\lv_flex.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\menu\lv_menu.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\menu\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\msgbox\lv_msgbox.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\msgbox\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\meter\lv_meter.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\meter\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinbox\lv_spinbox.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinbox\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinner\lv_spinner.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinner\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tabview\lv_tabview.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tabview\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tileview\lv_tileview.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tileview\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\win\lv_win.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\win\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\colorwheel\lv_colorwheel.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\colorwheel\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\led\lv_led.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\led\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\imgbtn\lv_imgbtn.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\imgbtn\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\span\lv_span.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\span\..\..\..\lvgl.h)(0x650AC175)
-F (..\generated\guider_fonts\lv_font_SourceHanSerifSC_Regular_18.c)(0x66643D3E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/lv_font_sourcehanserifsc_regular_18.o -MD)
+F (..\generated\guider_fonts\lv_font_SourceHanSerifSC_Regular_18.c)(0x666591D6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/lv_font_sourcehanserifsc_regular_18.o -MD)
 I (..\lvgl\lvgl.hu.\lvgl\src\misc\lv_log.h)(0x00000000)
 I (..\lvgl\src\misc\..\lv_conf_internal.h)(0x650AC175)
 I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
@@ -19765,184 +19407,3 @@ I (..\lvgl\src\extra\widgets\imgbtn\lv_imgbtn.h)(0x650AC175)
 I (..\lvgl\src\extra\widgets\imgbtn\..\..\..\lvgl.h)(0x650AC175)
 I (..\lvgl\src\extra\widgets\span\lv_span.h)(0x650AC175)
 I (..\lvgl\src\extra\widgets\span\..\..\..\lvgl.h)(0x650AC175)
-F (..\custom\custom.c)(0x666436D4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../Drivers/LCD -I ../Drivers/Touch -I ../Drivers/delay -I ../lvgl -I ../lvgl/examples -I ../lvgl/examples/porting -I ../lvgl/src -I ../lvgl/stress -I ../generated/guider_customer_fonts -I ../generated/guider_fonts -I ../generated/images -I ../generated -I ../custom-I./RTE/_SHENTOU-IC:/Users/16664/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/16664/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o shentou/custom.o -MD)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdio.hb\lvgl\lvgl.h)(0x00000000)
-I (..\lvgl\src\misc\lv_log.hA.\lvgl\src\misc\..\lv_conf_internal.h)(0x00000000)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (..\lvgl\src\misc\..\lv_conf_kconfig.h\.\lvgl\lv_conf.h)(0x00000000)
-I (..\lvgl\src\misc\lv_types.h_.\lvgl\src\misc\lv_timer.h)(0x00000000)
-I (..\lvgl\src\misc\..\hal\lv_hal_tick.h)(0x650AC175)
-I (..\lvgl\src\misc\..\hal\..\lv_conf_internal.h)(0x650AC175)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x6569B012)
-I (..\lvgl\src\misc\lv_math.hR.\lvgl\src\misc\lv_mem.h)(0x00000000)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
-I (..\lvgl\src\misc\lv_async.hM.\lvgl\src\misc\lv_anim_timeline.h)(0x00000000)
-I (..\lvgl\src\misc\lv_anim.hh.\lvgl\src\misc\lv_printf.h)(0x00000000)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\inttypes.h)(0x6569B012)
-I (C:\User Programs\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x6569B012)
-I (..\lvgl\src\hal\lv_hal.h\.\lvgl\src\hal\lv_hal_disp.h)(0x00000000)
-I (..\lvgl\src\hal\..\draw\lv_draw.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_style.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\lv_font.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\lv_symbol_def.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\misc\lv_area.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\font\..\misc\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_color.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_assert.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_log.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_mem.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_math.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_types.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_area.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_anim.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_txt.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_printf.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_bidi.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_style_gen.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_img_decoder.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_img_buf.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\..\misc\lv_fs.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_img_cache.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_rect.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\lv_draw_sw_gradient.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\misc\lv_color.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\misc\lv_style.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\lv_draw_sw_dither.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\core\lv_obj_pos.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\sw\..\..\core\..\misc\lv_area.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_label.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_img.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_line.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_triangle.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_arc.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_mask.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_transform.h)(0x650AC175)
-I (..\lvgl\src\hal\..\draw\lv_draw_layer.h)(0x650AC175)
-I (..\lvgl\src\hal\..\misc\lv_color.hy.\lvgl\src\hal\..\misc\lv_area.h)(0x00000000)
-I (..\lvgl\src\hal\..\misc\lv_ll.hr.\lvgl\src\hal\..\misc\lv_timer.h)(0x00000000)
-I (..\lvgl\src\hal\lv_hal_indev.hh.\lvgl\src\hal\..\lv_conf_internal.h)(0x00000000)
-I (..\lvgl\src\hal\lv_hal_tick.hh.\lvgl\src\core\lv_obj.h)(0x00000000)
-I (..\lvgl\src\core\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_style.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_types.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_color.h)(0x650AC175)
-I (..\lvgl\src\core\..\misc\lv_assert.h..\lvgl\src\core\..\hal\lv_hal.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_tree.hs.\lvgl\src\core\lv_obj_pos.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_scroll.h\.\lvgl\src\core\..\misc\lv_anim.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_style.hh.\lvgl\src\core\..\misc\lv_bidi.h)(0x00000000)
-I (..\lvgl\src\core\lv_obj_style_gen.hv.\lvgl\src\core\lv_obj_draw.h)(0x00000000)
-I (..\lvgl\src\core\..\draw\lv_draw.hh.\lvgl\src\core\lv_obj_class.h)(0x00000000)
-I (..\lvgl\src\core\lv_event.h_.\lvgl\src\core\lv_group.h)(0x00000000)
-I (..\lvgl\src\core\..\misc\lv_ll.hg.\lvgl\src\core\lv_indev.h)(0x00000000)
-I (..\lvgl\src\core\..\hal\lv_hal_indev.hl.\lvgl\src\core\lv_refr.h)(0x00000000)
-I (..\lvgl\src\core\lv_disp.h_.\lvgl\src\core\lv_theme.h)(0x00000000)
-I (..\lvgl\src\core\..\core\lv_obj.h\.\lvgl\src\font\lv_font.h)(0x00000000)
-I (..\lvgl\src\font\lv_font_loader.h\.\lvgl\src\font\lv_font_fmt_txt.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_arc.hd.\lvgl\src\widgets\..\lv_conf_internal.h)(0x00000000)
-I (..\lvgl\src\widgets\..\core\lv_obj.hs.\lvgl\src\widgets\lv_btn.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_img.hl.\lvgl\src\widgets\..\misc\lv_fs.h)(0x00000000)
-I (..\lvgl\src\widgets\..\draw\lv_draw.hr.\lvgl\src\widgets\lv_label.h)(0x00000000)
-I (..\lvgl\src\widgets\..\font\lv_font.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\font\lv_symbol_def.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\misc\lv_txt.hl.\lvgl\src\widgets\lv_line.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_table.h_.\lvgl\src\widgets\lv_checkbox.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_bar.h..\lvgl\src\widgets\..\misc\lv_anim.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_slider.hl.\lvgl\src\widgets\lv_btnmatrix.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_dropdown.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\widgets\lv_label.h)(0x650AC175)
-I (..\lvgl\src\widgets\lv_roller.hl.\lvgl\src\widgets\lv_textarea.h)(0x00000000)
-I (..\lvgl\src\widgets\lv_canvas.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\widgets\lv_img.h)(0x650AC175)
-I (..\lvgl\src\widgets\..\draw\lv_draw_img.h)(0x650AC175)
-I (..\lvgl\src\widgets\lv_switch.hd.\lvgl\src\draw\lv_draw.h)(0x00000000)
-I (..\lvgl\src\lv_api_map.hw.\lvgl\src\..\lvgl.h)(0x00000000)
-I (..\lvgl\src\extra\lv_extra.hv.\lvgl\src\extra\layouts\lv_layouts.h)(0x00000000)
-I (..\lvgl\src\extra\layouts\flex\lv_flex.h)(0x650AC175)
-I (..\lvgl\src\extra\layouts\flex\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\layouts\grid\lv_grid.h)(0x650AC175)
-I (..\lvgl\src\extra\layouts\grid\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\lv_libs.h..\lvgl\src\extra\libs\bmp\lv_bmp.h)(0x00000000)
-I (..\lvgl\src\extra\libs\bmp\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\fsdrv\lv_fsdrv.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\fsdrv\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\png\lv_png.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\png\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\gif\lv_gif.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\gif\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\gif\..\..\..\..\lvgl.h)(0x66643B89)
-I (..\lvgl\src\extra\libs\qrcode\lv_qrcode.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\qrcode\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\sjpg\lv_sjpg.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\freetype\lv_freetype.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\freetype\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\rlottie\lv_rlottie.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\rlottie\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\ffmpeg\lv_ffmpeg.h)(0x650AC175)
-I (..\lvgl\src\extra\libs\ffmpeg\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\others\lv_others.h)(0x650AC175)
-I (..\lvgl\src\extra\others\snapshot\lv_snapshot.h)(0x650AC175)
-I (..\lvgl\src\extra\others\snapshot\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\others\snapshot\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\others\monkey\lv_monkey.h)(0x650AC175)
-I (..\lvgl\src\extra\others\monkey\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\others\gridnav\lv_gridnav.h)(0x650AC175)
-I (..\lvgl\src\extra\others\gridnav\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\others\fragment\lv_fragment.h)(0x650AC175)
-I (..\lvgl\src\extra\others\fragment\..\..\..\lv_conf_internal.h)(0x650AC175)
-I (..\lvgl\src\extra\others\imgfont\lv_imgfont.h)(0x650AC175)
-I (..\lvgl\src\extra\others\imgfont\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\others\msg\lv_msg.h)(0x650AC175)
-I (..\lvgl\src\extra\others\msg\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\others\ime\lv_ime_pinyin.h)(0x650AC175)
-I (..\lvgl\src\extra\others\ime\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\lv_themes.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\default\lv_theme_default.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\default\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\mono\lv_theme_mono.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\mono\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\basic\lv_theme_basic.h)(0x650AC175)
-I (..\lvgl\src\extra\themes\basic\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\lv_widgets.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\animimg\lv_animimg.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\animimg\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\lv_calendar.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\..\..\..\widgets\lv_btnmatrix.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\lv_calendar_header_arrow.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\calendar\lv_calendar_header_dropdown.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\chart\lv_chart.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\chart\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\keyboard\lv_keyboard.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\keyboard\..\..\..\widgets\lv_btnmatrix.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\list\lv_list.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\list\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\list\..\..\layouts\flex\lv_flex.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\menu\lv_menu.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\menu\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\msgbox\lv_msgbox.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\msgbox\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\meter\lv_meter.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\meter\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinbox\lv_spinbox.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinbox\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinner\lv_spinner.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\spinner\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tabview\lv_tabview.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tabview\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tileview\lv_tileview.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\tileview\..\..\..\core\lv_obj.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\win\lv_win.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\win\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\colorwheel\lv_colorwheel.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\colorwheel\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\led\lv_led.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\led\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\imgbtn\lv_imgbtn.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\imgbtn\..\..\..\lvgl.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\span\lv_span.h)(0x650AC175)
-I (..\lvgl\src\extra\widgets\span\..\..\..\lvgl.h..\custom\custom.h)(0x00000000)
-I (..\generated\gui_guider.h)(0x66643D3E)

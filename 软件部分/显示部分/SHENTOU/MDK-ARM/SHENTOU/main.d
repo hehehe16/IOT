@@ -26,13 +26,14 @@ shentou/main.o: ..\Core\Src\main.c ..\Core\Inc\main.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_sram.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_fsmc.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_iwdg.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h \
-  ..\Core\Inc\gpio.h ..\Core\Inc\fsmc.h ..\Drivers\LCD\LCD.h \
-  ..\Drivers\Touch\touch.h ..\Drivers\Touch\gt9xxx.h \
-  ..\Drivers\Touch\ft5206.h ..\Drivers\delay\delay.h \
-  ..\Drivers\Touch\24cxx.h ..\lvgl\lvgl.h ..\lvgl\src\misc\lv_log.h \
-  ..\lvgl\src\misc\..\lv_conf_internal.h \
+  ..\Core\Inc\dma.h ..\Core\Inc\iwdg.h ..\Core\Inc\gpio.h \
+  ..\Core\Inc\fsmc.h ..\Drivers\LCD\LCD.h ..\Drivers\Touch\touch.h \
+  ..\Drivers\Touch\gt9xxx.h ..\Drivers\Touch\ft5206.h \
+  ..\Drivers\delay\delay.h ..\Drivers\Touch\24cxx.h ..\lvgl\lvgl.h \
+  ..\lvgl\src\misc\lv_log.h ..\lvgl\src\misc\..\lv_conf_internal.h \
   ..\lvgl\src\misc\..\lv_conf_kconfig.h ..\lvgl\lv_conf.h \
   ..\lvgl\src\misc\lv_types.h ..\lvgl\src\misc\lv_timer.h \
   ..\lvgl\src\misc\..\hal\lv_hal_tick.h \

@@ -1,0 +1,39 @@
+shentou\ft5206.o: ..\Drivers\Touch\ft5206.c
+shentou\ft5206.o: C:\User Programs\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
+shentou\ft5206.o: ../Drivers/LCD/lcd.h
+shentou\ft5206.o: ../Core/Inc/main.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+shentou\ft5206.o: ../Core/Inc/stm32f4xx_hal_conf.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+shentou\ft5206.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+shentou\ft5206.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+shentou\ft5206.o: ../Drivers/CMSIS/Include/core_cm4.h
+shentou\ft5206.o: C:\User Programs\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+shentou\ft5206.o: ../Drivers/CMSIS/Include/cmsis_version.h
+shentou\ft5206.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+shentou\ft5206.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+shentou\ft5206.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+shentou\ft5206.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+shentou\ft5206.o: C:\User Programs\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stddef.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+shentou\ft5206.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+shentou\ft5206.o: ..\Drivers\Touch\touch.h
+shentou\ft5206.o: ..\Drivers\Touch\gt9xxx.h
+shentou\ft5206.o: ..\Drivers\Touch\ft5206.h
+shentou\ft5206.o: ..\Drivers\Touch\ctiic.h
+shentou\ft5206.o: ../Drivers/delay/delay.h

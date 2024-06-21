@@ -593,10 +593,10 @@ uint8_t tp_init(void)
 //        }
 //				return 0; 
 //        tp_get_adjust_data();
-tp_dev.xfac = -11.6357145;
-tp_dev.yfac = 15.1949997;
-tp_dev.xc = 0x07E9;
-tp_dev.yc = 0x0874;
+tp_dev.xfac = -11.4785719;
+tp_dev.yfac = 15.1025;
+tp_dev.xc = 0x07D4;
+tp_dev.yc = 0x0821;
 			
  return 0;
     }
